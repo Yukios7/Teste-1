@@ -1,0 +1,27 @@
+package asd;
+
+import java.util.Scanner;
+
+public class sad {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner las = new Scanner(System.in);
+		int B1 = las.nextInt();
+		int B2 = las.nextInt();
+		int B3 = las.nextInt();
+		int B4 = las.nextInt();
+		int r = ((B1+B2+B3+B4)/4);
+		 if (r >=6) {
+			 System.out.println("Aprovado");
+		 }
+		 else if (r <3) {
+			 System.out.println("Retido");
+		 }
+		 else if (r >=3 && r <6) {
+			 System.out.println("Exame");
+		 }
+	}
+
+}

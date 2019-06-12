@@ -1,0 +1,21 @@
+package as;
+
+import java.util.Scanner;
+
+public class cd {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner qwert = new Scanner(System.in);
+		int n = qwert.nextInt();
+
+		if ((n % 2)== 0) {
+			System.out.println("O número é par");
+		}
+		else {
+			System.out.println("O número é impar");
+		}
+		
+	}
+
+}

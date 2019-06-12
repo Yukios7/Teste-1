@@ -1,0 +1,26 @@
+package asd;
+
+import java.util.Scanner;
+
+public class dsa {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner asd = new Scanner(System.in);
+		
+		int x = asd.nextInt();
+		
+		if (x <= 14) {
+			System.out.println("O número é menor que 15: ");
+		}
+		else if (x >= 101) {
+			System.out.println("O número é maior que 100: ");
+		}
+		else {
+			System.out.println("O valor está entre 15 e 100: ");
+		}
+		
+	}
+
+}
