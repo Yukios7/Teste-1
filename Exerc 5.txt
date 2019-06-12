@@ -2,7 +2,7 @@ package nsei;
 
 import java.util.Scanner;
 
-public class a {
+public class Aaaaaaaaaaa {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -13,22 +13,22 @@ public class a {
 		int n3 = ys.nextInt();
 		
 		if (n1 > n2 && n1 > n3 && n2 < n3) {
-			System.out.println(n1 +" É o maior número e " + n2 + " É o menor" );
+			System.out.println(n1 +" Ã‰ o maior nÃºmero e " + n2 + " Ã‰ o menor" );
 		}
 		else if (n1 > n2 && n1 > n3 && n3 < n2) {
-			System.out.println(n1 +" É o maior número e " + n3 + " É o menor" );
+			System.out.println(n1 +" Ã‰ o maior nÃºmero e " + n3 + " Ã‰ o menor" );
 		}
 		else if (n2 > n1 && n2 > n3 && n3 < n1) {
-			System.out.println(n2 +" É o maior número e " + n3 + " É o menor" );
+			System.out.println(n2 +" Ã‰ o maior nÃºmero e " + n3 + " Ã‰ o menor" );
 		}
 		else if (n2 > n1 && n2 > n3 && n1 < n3) {
-			System.out.println(n2 +" É o maior número e " + n1 + " É o menor" );
+			System.out.println(n2 +" Ã‰ o maior nÃºmero e " + n1 + " Ã‰ o menor" );
 		}
 		else if (n3 > n2 && n3 > n1 && n1 < n2) {
-			System.out.println(n3 +" É o maior número e " + n1 + " É o menor" );
+			System.out.println(n3 +" Ã‰ o maior nÃºmero e " + n1 + " Ã‰ o menor" );
 		}
 		else if (n3 > n2 && n3 > n1 && n2 < n1) {
-			System.out.println(n3 +" É o maior número e " + n2 + " É o menor" );
+			System.out.println(n3 +" Ã‰ o maior nÃºmero e " + n2 + " Ã‰ o menor" );
 		}
 
 }
