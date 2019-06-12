@@ -2,7 +2,7 @@ package sla;
 
 import java.util.Scanner;
 
-public class nsei {
+public class Nsei {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -11,25 +11,25 @@ public class nsei {
 		int nintendo = he.nextInt();
 		switch (asd) {
 		case 0:
-			System.out.println("Hoje é domingo");
+			System.out.println("Hoje Ã© domingo");
 		break;
 		case 1:
-			System.out.println("Hoje é segunda");
+			System.out.println("Hoje Ã© segunda");
 		break;
 		case 2:
-			System.out.println("Hoje é terça");
+			System.out.println("Hoje Ã© terÃ§a");
 		break;
 		case 3:
-			System.out.println("Hoje é quarta");
+			System.out.println("Hoje Ã© quarta");
 		break;
 		case 4:
-			System.out.println("Hoje é quinta");
+			System.out.println("Hoje Ã© quinta");
 		break;
 		case 5:
-			System.out.println("Hoje é sexta");
+			System.out.println("Hoje Ã© sexta");
 		break;
 		case 6:
-			System.out.println("Hoje é Sabado");
+			System.out.println("Hoje Ã© Sabado");
 		break;
 		default  :
 			System.out.println("Apenas de 0 a 6");
