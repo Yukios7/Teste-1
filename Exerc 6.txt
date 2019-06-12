@@ -2,7 +2,7 @@ package as;
 
 import java.util.Scanner;
 
-public class cd {
+public class Cdd {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -10,10 +10,10 @@ public class cd {
 		int n = qwert.nextInt();
 
 		if ((n % 2)== 0) {
-			System.out.println("O número é par");
+			System.out.println("O nÃºmero Ã© par");
 		}
 		else {
-			System.out.println("O número é impar");
+			System.out.println("O nÃºmero Ã© impar");
 		}
 		
 	}
