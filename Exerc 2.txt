@@ -2,7 +2,7 @@ package sla;
 
 import java.util.Scanner;
 
-public class asd {
+public class Asd {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -11,10 +11,10 @@ public class asd {
 		float x = hi.nextFloat();
 		
 		if (x >= 1.99 && nu <=5.99) {
-			System.out.println("O número está entre 1,99 e 5,99: ");
+			System.out.println("O nÃºmero estÃ¡ entre 1,99 e 5,99: ");
 		}
 		else {
-			System.out.println("O número nao está entre 1,99 e 5,99: ");
+			System.out.println("O nÃºmero nao estÃ¡ entre 1,99 e 5,99: ");
 		}
 		
 	}
